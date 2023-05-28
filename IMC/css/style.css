@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background:linear-gradient(rgb(255, 28, 28),black);
+    
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+img{
+    max-width: 100%;
+}
+
+img.alvo {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+#formulario{
+    display: flex;
+    width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    gap: 20px;
+}
+main{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap: 5px;
+    width:100%;
+}
+
+#formulario main div{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+   width: 90%;
+}
+
+#formulario input,button{
+   
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#formulario button{
+    border: none;
+    outline: none;
+    background:rgb(8, 2, 67);
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+} */
+
+
+div > div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  
+  
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin:0;
+    -moz-appearance: textfield;
+    -moz-appearance: none;
+}
